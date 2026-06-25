@@ -7,36 +7,59 @@
     <meta name="description" content="" />
     <title>SimplyChocolate</title>
     <link rel="icon" href="./images/logo.svg" type="image/svg+xml" />
+
+    <!-- Critical CSS  -->
+    <!-- Link https://web.dev/articles/extract-critical-css -->
+    <!-- <style>
+      header {
+        background-color: darkblue;
+        color: white;
+      }
+      a {
+        color: lightblue;
+      }
+    </style> -->
+
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <header id="home">
-      <a href="#">
+    <header class="header" id="home">
+      <a class="logo" href="#">
         SIMPLY CHOCOLATE
-        <img src="./images/logo.svg" alt="Site logo" width="24" height="24" />
+        <img
+          class="logo-icon"
+          src="./images/logo.svg"
+          alt="Site logo"
+          width="24"
+          height="24"
+        />
       </a>
-      <nav>
-        <ul>
-          <li>
-            <a href="#home">Home</a>
+
+      <nav class="header-nav">
+        <ul class="header-nav-list">
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="#home">Home</a>
           </li>
-          <li>
-            <a href="#made">How it&#39;s made?</a>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="#made"> How it&#39;s made? </a>
           </li>
-          <li>
-            <a href="#reviews">Chocolate is loved</a>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="#reviews">Chocolate is loved</a>
           </li>
         </ul>
       </nav>
 
-      <ul>
-        <li>
+      <ul class="socials header-socials">
+        <li class="socials-item">
           <a
+            class="socials-link"
             href="https://facebook.com"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Link to Facebook"
           >
             <img
+              class="socials-icon"
               src="./images/icons/facebook.svg"
               alt="Facebook icon"
               width="24"
@@ -44,14 +67,16 @@
             />
           </a>
         </li>
-        <li>
+        <li class="socials-item">
           <a
+            class="socials-link"
             href="https://instagram.com"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Link to Instagram"
           >
             <img
+              class="socials-icon"
               src="./images/icons/instagram.svg"
               alt="Instagram icon"
               width="24"
@@ -59,14 +84,16 @@
             />
           </a>
         </li>
-        <li>
+        <li class="socials-item">
           <a
+            class="socials-link"
             href="https://twitter.com"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Link to X"
           >
             <img
+              class="socials-icon"
               src="./images/icons/twitter.svg"
               alt="X icon"
               width="24"
@@ -76,6 +103,9 @@
         </li>
       </ul>
     </header>
+
+    <div class="circle"></div>
+    <div class="circle light small"></div>
 
     <main>
       <!-- Hero section -->

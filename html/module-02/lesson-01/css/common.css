@@ -1,0 +1,14 @@
+/*? Global Styles */
+body {
+  background-color: #fafafa;
+  color: #111111;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}

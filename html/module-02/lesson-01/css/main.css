@@ -1,0 +1,30 @@
+@import url("./common.css");
+@import url("./header.css");
+@import url("./hero.css");
+@import url("./benefits.css");
+@import url("./ingredients.css");
+
+:root {
+  /* Custom properties */
+  --circle-brand-cl: rgb(53, 153, 51);
+  --circle-dark-cl: rgb(1, 12, 71);
+  --shadow: 0 0 10 rgb(0, 0, 0, 0.25);
+  --size: 80px;
+  --rounded: 50%;
+}
+
+/* body {
+  color: var(--body-color);
+} */
+.circle {
+  background-color: var(--circle-brand-cl);
+
+  width: var(--size);
+  height: var(--size);
+  border-radius: var(--rounded);
+}
+
+.circle.light.small {
+  --size: 40px;
+  /* --circle-brand-cl: hotpink; */
+}
