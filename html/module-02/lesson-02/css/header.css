@@ -1,0 +1,38 @@
+/* Header styles */
+.header {
+}
+.header-nav {
+}
+.header-nav-list {
+}
+.header-nav-item {
+}
+.header-nav-link {
+  font-weight: 500;
+}
+.header-nav-link:hover,
+.header-nav-link:focus {
+}
+.header-socials {
+}
+
+/* Logo styles */
+.logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+.logo-icon {
+}
+
+/* Style styles */
+.socials {
+}
+.socials-item {
+}
+.socials-link {
+}
+.socials-icon {
+}
